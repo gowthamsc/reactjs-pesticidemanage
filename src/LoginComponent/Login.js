@@ -71,7 +71,7 @@ function Login() {
             })
             .catch((error) => {
                 setLoginFailure(true)
-                setLoginFailureMsg("Inavlid")
+                setLoginFailureMsg("Inavlid mail or password")
             })
         setLoading(false)
     };
