@@ -210,7 +210,7 @@ const data = await ConsultantService.get(parseJwt(localStorage.getItem('Consulta
       "email": consultantEmail,
       "type": "Consultant"
     }
-    const data =await LoginService.logout(logoutDTO)
+   await LoginService.logout(logoutDTO)
       .then((response) => {
        // removeCookie(logoutDTO.type)
         localStorage.removeItem("Consultant");

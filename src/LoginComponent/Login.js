@@ -71,7 +71,7 @@ function Login() {
             })
             .catch((error) => {
                 setLoginFailure(true)
-                setLoginFailureMsg(error.response.data)
+                setLoginFailureMsg("Inavlid")
             })
         setLoading(false)
     };

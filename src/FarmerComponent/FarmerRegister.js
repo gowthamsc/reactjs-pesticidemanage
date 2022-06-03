@@ -93,7 +93,7 @@ function FarmerRegister() {
                 SetSuccess(false);
                 SetFailure(true)
             })
-        setIsSubmit(false)
+       
         setLoading(false)
 
     };
